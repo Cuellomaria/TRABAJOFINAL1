@@ -1,0 +1,79 @@
+*{padding: 0;
+margin: 0;}
+
+header{background-color: rgb(33, 33, 33);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+align-items: center;}
+
+header nav a{text-decoration: none;
+    color: white;
+    margin: 0 1rem;}
+
+
+/* sec uno */
+.hero{background-color: rgb(159, 156, 161);
+   height: 70vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+align-items: center;}
+
+.hero img{border-radius: 50%;
+width: 10rem;}
+/* sec  dos*/
+.negro{background-color: rgb(33, 33, 33);
+   color:white;
+   display: flex;
+justify-content: center;}
+
+
+/* sec tres */
+.cuadrados{background-color:rgb(159, 156, 161);
+    display: flex;
+    justify-content: center;}
+
+/* sec cuatro */
+.negrodos{background-color: rgb(33, 33, 33);
+    color:white;
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+align-items: center;}
+
+.doscolumnas{display: flex;}
+
+ /* sec cinco */
+ .portfolio{background-color: gray;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;}
+
+
+/* footer */
+.contactos{background-color: rgb(159, 156, 161);
+display: flex;
+flex-direction: column;}
+
+.doscolumnasfoter{display: flex;
+justify-content: center;} 
+
+.derechos{background-color: rgb(63, 164, 63);
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;}
+
+
+
+
+/* etiquetas repetidas */
+button.b1{background-color: rgb(63, 164, 63);
+    color: white;
+    border-radius: 1rem;}
+button.b2{border: 0.2rem solid white;
+color: white;
+background-color:  gray;}
