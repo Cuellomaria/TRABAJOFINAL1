@@ -1,5 +1,6 @@
 *{padding: 0;
-margin: 0;}
+margin: 0;
+font-family: 'Raleway', sans-serif;}
 
 header{background-color: rgb(33, 33, 33);
     width: 100%;
@@ -8,61 +9,127 @@ header{background-color: rgb(33, 33, 33);
     justify-content: center;
 align-items: center;}
 
+header .logo{display: flex;
+margin-right: 20rem;}
+
+header h3{color: white;
+    font-size: 2.5rem;}
+    
+header .hverde{color: rgb(111, 216, 111);
+font-size: 2.5rem;}
+
 header nav a{text-decoration: none;
     color: white;
+    font-size: 0.8rem;
     margin: 0 1rem;}
 
+.boton{margin-left: 4rem;}
+
+.boton .b1{font-size: 0.8rem;
+    background-color: rgb(111, 216, 111);
+        color: white;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+        border-bottom: none;}
 
 /* sec uno */
-.hero{background-color: rgb(159, 156, 161);
+.hero{background-image: 
+    linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
+    url('../img/imghercopia.jpg');
+    background-repeat:no-repeat;
    height: 70vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
 align-items: center;}
 
+
 .hero img{border-radius: 50%;
-width: 10rem;}
+width: 10rem;
+margin-bottom: 1rem;}
+
+.hero h1{color: rgb(111, 216, 111);}
+.hero p{color: white;
+margin-bottom: 1rem;}
+.icohero{border-radius: 4rem;
+padding: 0.9rem 0.1rem;
+border: 0.1rem solid rgb(111, 216, 111);
+background:none ;}
+
 /* sec  dos*/
-.negro{background-color: rgb(33, 33, 33);
+.negro{background-color: rgb(27, 27, 27);
    color:white;
    display: flex;
-justify-content: center;}
+justify-content: space-around;
+align-items: center;
+padding: 4rem 12rem;}
 
+.negro h4{color: rgb(111, 216, 111);}
 
 /* sec tres */
-.cuadrados{background-color:rgb(159, 156, 161);
+.cuadrados{background-image: url('../img/cuadrosimg.jpg'); 
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: center;}
+    justify-content: space-evenly;
+color: white;
+height: 15rem;
+}
+
+.caja{width: 15rem;
+height: 7rem;
+background-color: rgb(44, 43, 43);
+text-align: center;
+margin-top: 4rem;
+border-radius: 0.5rem;
+padding: 0.5rem 1rem;
+border-bottom: none;}
+
+.cajados{ background-color: rgb(111, 216, 111);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-bottom: none;
+width: 15rem;
+text-align: center;
+height: 7rem;
+margin-top: 4rem;}
+
 
 /* sec cuatro */
-.negrodos{background-color: rgb(33, 33, 33);
+
+.negrodos{background-color:rgb(27, 27, 27);
     color:white;
     display: flex;
     flex-direction: column;
- justify-content: center;
-align-items: center;}
+ padding: 4rem 12rem;}
+
+.izq{justify-content: left;}
+.negrodos .izq{text-align: left;}
 
 .doscolumnas{display: flex;}
 
+.doscolumnas h2{color: rgb(111, 216, 111);}
+
+.botoncua{justify-content: center;
+align-items: center;}
+
  /* sec cinco */
- .portfolio{background-color: gray;
+ .portfolio{background-color: rgb(44, 43, 43);
     display: flex;
     flex-direction: column;
-  
     align-items: center;}
 
 
+
 /* footer */
-.contactos{background-color: rgb(159, 156, 161);
+.contactos{background-image: url('../img/imgher.jpg'); 
 display: flex;
 flex-direction: column;}
 
 .doscolumnasfoter{display: flex;
 justify-content: center;} 
 
-.derechos{background-color: rgb(63, 164, 63);
-display: flex;
+.derechos{background-color: rgb(111, 216, 111);
 flex-direction: column;
 align-items: center;
 color: white;}
@@ -71,9 +138,15 @@ color: white;}
 
 
 /* etiquetas repetidas */
-button.b1{background-color: rgb(63, 164, 63);
+button.b1{background-color: rgb(111, 216, 111);
     color: white;
-    border-radius: 1rem;}
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-bottom: none;}
+
+@media (hover:hover) {button.b1:hover {color: black;}}
+
 button.b2{border: 0.2rem solid white;
 color: white;
-background-color:  gray;}
+background-color:  gray;
+border-bottom: none;}
