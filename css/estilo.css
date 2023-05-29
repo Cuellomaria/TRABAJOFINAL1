@@ -3,10 +3,10 @@ margin: 0;
 font-family: 'Raleway', sans-serif;}
 
 header{background-color: rgb(33, 33, 33);
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
+width: 100%;
+height: 5rem;
+display: flex;
+justify-content: center;
 align-items: center;
 margin: auto;}
 
@@ -14,36 +14,35 @@ header .logo{display: flex;
 margin-right: 20rem;}
 
 header h3{color: white;
-    font-size: 2.5rem;}
+font-size: 2.5rem;}
     
 header .hverde{color: rgb(111, 216, 111);
 font-size: 2.5rem;}
 
 header nav a{text-decoration: none;
-    color: white;
-    font-size: 0.8rem;
-    margin: 0 1rem;}
+color: white;
+font-size: 0.8rem;
+margin: 0 1rem;}
     header nav a:hover{text-decoration: underline;}
-
 
 .boton{margin-left: 4rem;}
 
 .boton .b1{font-size: 0.8rem;
-    background-color: rgb(111, 216, 111);
-        color: white;
-        border-radius: 0.5rem;
-        padding: 0.5rem 1rem;
-        border-bottom: none;}
+background-color: rgb(111, 216, 111);
+color: white;
+border-radius: 0.5rem;
+padding: 0.5rem 1rem;
+border-bottom: none;}
 
 /* sec uno */
 .hero{background-image: 
     linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
     url('../img/imghercopia.jpg');
-    background-repeat:no-repeat;
-   height: 70vh;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+background-repeat:no-repeat;
+height: 70vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
 align-items: center;
 margin: auto;}
 
@@ -62,38 +61,42 @@ background:none ;}
 /* sec  dos*/
 .negro{background-color: rgb(10, 10, 10);
 color:white;
-width: 100%;}
+width: auto;}
 
-.margen{margin:auto 22rem;
+.margen{margin:auto 20rem;
 display: flex;
 justify-content: center;} 
 
 .descubri{flex-basis: 30rem;
 align-content: center;
-margin: 3rem 1.5rem;}
+margin: 6rem 1.5rem;}
 
-.margen h4{color: rgb(111, 216, 111);
+.descubri h4{color: rgb(111, 216, 111);
 font-size:small;}
-.margen h2{margin-bottom: 0.5rem;}
+.descubri h2{margin-bottom: 0.6rem;}
+.descubri p{text-align: justify;
+font-size: 0.9rem;}
 
 .habilidades{display: flex;
-flex-direction: column;}
+flex-direction: column;
+margin-top: 1.2rem;}
 
 .habilidades button{margin-bottom: 1rem;
 padding: 0.2rem;
 background-color:rgb(111, 216, 111);
 color: white;
-border: none;}
-
+border: none;
+display: flex;
+justify-content: space-between;}
 
 /* sec tres */
 .cuadrados{background-image: 
     linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
     url('../img/cuadradoimg.jpg');
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+background-repeat: no-repeat;
+justify-content: center;
+align-items: center;
+display: flex;
 color: white;
 height: 20rem;
 margin: auto;}
@@ -116,10 +119,10 @@ margin-top: 1rem;}
 .cajados p{font-size: 1rem;}
 
 .cajados{ background-color: rgb(111, 216, 111);
-    color: white;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-    border-bottom: none;
+color: white;
+border-radius: 0.5rem;
+padding: 0.5rem 1rem;
+border-bottom: none;
 width: 11rem;
 text-align: center;
 height: 7rem;
@@ -128,33 +131,55 @@ margin:0 0.6rem;}
 
 /* sec cuatro */
 .negrodos{background-color:rgb(10, 10, 10);
-    color:white;
-    margin: auto;}
-
+color:white;
+margin: auto;}
 
 .negrodos .margen{display: flex;
 flex-direction: column;
-padding-top: 2rem;
+width: auto;}
 
-}
+.negrodos .margen h2{margin-top: 4rem;}
 
 .doscolumnas{display: flex;}
 
 .col{background-color: rgb(44, 43, 43);
-    border: 0.1rem solid rgb(111, 216, 111);
-    margin: 0.5rem 0.5rem;
+border: 0.1rem solid rgb(111, 216, 111);
 border-radius: 1rem;
-padding: 4rem;}
-.col h2{color: rgb(111, 216, 111);}
+margin: 3rem 0.5rem;
+padding: 2rem;
+width: 40rem;}
+.col h2{color: rgb(111, 216, 111);
+margin-top: 3rem;}
+.col p{font-size: 0.9rem;
+line-height: 1.2rem;
+margin-bottom: 0.8rem;
+margin-top:0.2rem;}
 
-.bot4{margin: 2rem;
+.bot4{margin-top: 0.2rem;
+margin-bottom: 3rem;
 align-self: center;}
 
- /* sec cinco */
+/* sec cinco */
  .portfolio{background-color: rgb(44, 43, 43);
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+
+.portfolio .margencinco{ margin: 3rem 18rem;
+}
+
+.margencinco p{font-size: 0.9rem;
+    line-height: 1.2rem;
+margin-top: 1rem;
+margin-bottom: 3rem;}
+
+
+.puntos h2{color: rgb(111, 216, 111);
+text-align: center;}
+
+
 
 
 
@@ -167,6 +192,10 @@ flex-direction: column;}
 
 .doscolumnasfoter{display: flex;
 justify-content: center;} 
+
+input{border: 0.1rem solid rgb(111, 216, 111) ;
+margin: 1rem 1rem;
+background: none;}
 
 .derechos{background-color: rgb(111, 216, 111);
     display: flex;
@@ -185,7 +214,8 @@ button.b1{background-color: rgb(111, 216, 111);
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     border-bottom: none;
-    border: none;}
+    border: none;
+font-weight: bolder;}
 
 @media (hover:hover) {button.b1:hover {color: black;}}
 
