@@ -52,7 +52,7 @@ margin-bottom: 1rem;}
 
 .hero h1{color: rgb(111, 216, 111);}
 .hero p{color: white;
-margin-bottom: 1rem;}
+margin-bottom: 0.9rem;}
 .icohero{border-radius: 4rem;
 padding: 0.9rem 0.1rem;
 border: 0.1rem solid rgb(111, 216, 111);
@@ -73,12 +73,13 @@ margin: 6rem 1.5rem;}
 
 .descubri h4{color: rgb(111, 216, 111);
 font-size:small;}
-.descubri h2{margin-bottom: 0.6rem;}
+.descubri h2{margin-bottom: 0.6rem;
+}
 .descubri p{text-align: justify;
 font-size: 0.9rem;
 display: flex;
 line-height: 1.2rem;}
-u{text-decoration: underline rgb(111, 216, 111);}
+u{text-decoration: underline rgb(111, 216, 111) 0.1rem;}
 .habilidades{display: flex;
 flex-direction: column;
 margin-top: 1.2rem;}
@@ -138,27 +139,26 @@ margin: auto;}
 
 .negrodos .margen{display: flex;
 flex-direction: column;
-width: auto;}
+width: auto;
+padding: 4rem 0;}
 
-.negrodos .margen h2{margin-top: 4rem;}
 
 .doscolumnas{display: flex;}
 
 .col{background-color: rgb(44, 43, 43);
 border: 0.1rem solid rgb(111, 216, 111);
 border-radius: 1rem;
-margin: 3rem 0.5rem;
+margin: 1.5rem 0.5rem;
 padding: 2rem;
-width: 40rem;}
+width: 35rem;}
 .col h2{color: rgb(111, 216, 111);
-margin-top: 3rem;}
-.col p{font-size: 0.9rem;
+margin-top: 2rem;}
+.col p{font-size: 0.8rem;
 line-height: 1.2rem;
 margin-bottom: 0.8rem;
 margin-top:0.2rem;}
 
-.bot4{margin-top: 0.2rem;
-margin-bottom: 3rem;
+.bot4{margin-top: 0.5rem;
 align-self: center;}
 
 /* sec cinco */
@@ -166,22 +166,18 @@ align-self: center;}
 display: flex;
 flex-direction: column;
 align-items: center;
-color: white;
-}
+color: white;}
 
-.portfolio .margencinco{ margin: 3rem 18rem;
-}
+.portfolio .margencinco{ margin: 3rem 18rem;}
 
 .margencinco p{font-size: 0.9rem;
-    line-height: 1.2rem;
+line-height: 1.2rem;
 margin-top: 1rem;
 margin-bottom: 3rem;}
 
 
 .puntos h2{color: rgb(111, 216, 111);
 text-align: center;}
-
-
 
 button.b2{border: 0.15rem solid white;
     color: white;
@@ -195,10 +191,17 @@ text-align: center;}
 linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
 url('../img/imgher.jpg'); 
 display: flex;
-flex-direction: column;}
+flex-direction: column;
+color: white;}
 
 .doscolumnasfoter{display: flex;
 justify-content: center;} 
+
+.icfot{display: flex;
+margin-bottom: 1rem;
+font-size: 0.8rem;
+align-items: center;}
+
 
 input{border: 0.1rem solid rgb(111, 216, 111) ;
 margin: 1rem 1rem;
