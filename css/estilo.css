@@ -75,8 +75,10 @@ margin: 6rem 1.5rem;}
 font-size:small;}
 .descubri h2{margin-bottom: 0.6rem;}
 .descubri p{text-align: justify;
-font-size: 0.9rem;}
-
+font-size: 0.9rem;
+display: flex;
+line-height: 1.2rem;}
+u{text-decoration: underline rgb(111, 216, 111);}
 .habilidades{display: flex;
 flex-direction: column;
 margin-top: 1.2rem;}
@@ -181,6 +183,11 @@ text-align: center;}
 
 
 
+button.b2{border: 0.15rem solid white;
+    color: white;
+    background-color: transparent;
+    padding: 0.3rem 1rem;
+text-align: center;}
 
 
 /* footer */
@@ -203,7 +210,8 @@ background: none;}
 flex-direction: column;
 color: white;
 font-size: small;
-padding: 2rem;}
+padding: 2rem;
+line-height: 1.3rem;}
 
 
 
@@ -218,8 +226,3 @@ button.b1{background-color: rgb(111, 216, 111);
 font-weight: bolder;}
 
 @media (hover:hover) {button.b1:hover {color: black;}}
-
-button.b2{border: 0.2rem solid white;
-color: white;
-background-color:  gray;
-border: none;}
