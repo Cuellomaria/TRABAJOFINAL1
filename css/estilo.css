@@ -44,7 +44,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin: auto;}
+margin: auto;
+width: 100%;}
 
 .hero img{border-radius: 50%;
 width: 10rem;
@@ -61,7 +62,7 @@ background:none ;}
 /* sec  dos*/
 .negro{background-color: rgb(10, 10, 10);
 color:white;
-width: auto;}
+width: 100%;}
 
 .margen{margin:auto 20rem;
 display: flex;
@@ -73,13 +74,14 @@ margin: 6rem 1.5rem;}
 
 .descubri h4{color: rgb(111, 216, 111);
 font-size:small;}
-.descubri h2{margin-bottom: 0.6rem;
+.descubri h1{margin-bottom: 0.6rem;
 }
 .descubri p{text-align: justify;
 font-size: 0.9rem;
 display: flex;
 line-height: 1.2rem;}
-u{text-decoration: underline rgb(111, 216, 111) 0.1rem;}
+u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
+
 .habilidades{display: flex;
 flex-direction: column;
 margin-top: 1.2rem;}
@@ -102,6 +104,7 @@ align-items: center;
 display: flex;
 color: white;
 height: 20rem;
+width: 100%;
 margin: auto;}
 
 .caja{width: 11rem;
@@ -135,13 +138,12 @@ margin:0 0.6rem;}
 /* sec cuatro */
 .negrodos{background-color:rgb(10, 10, 10);
 color:white;
-margin: auto;}
+padding: 4rem 0;
+width: 100%;}
 
 .negrodos .margen{display: flex;
 flex-direction: column;
-width: auto;
-padding: 4rem 0;}
-
+margin: auto 20rem;}
 
 .doscolumnas{display: flex;}
 
@@ -158,28 +160,32 @@ line-height: 1.2rem;
 margin-bottom: 0.8rem;
 margin-top:0.2rem;}
 
-.bot4{margin-top: 0.5rem;
+.bot4{margin-top: 1.5rem;
 align-self: center;}
 
 /* sec cinco */
  .portfolio{background-color: rgb(44, 43, 43);
 display: flex;
 flex-direction: column;
-align-items: center;
-color: white;}
+color: white;
+width: 100%;}
 
 .portfolio .margencinco{ margin: 3rem 18rem;}
 
 .margencinco p{font-size: 0.9rem;
 line-height: 1.2rem;
 margin-top: 1rem;
-margin-bottom: 3rem;}
+margin-bottom: 3rem;
+text-align: justify;}
 
 
-.puntos h2{color: rgb(111, 216, 111);
-text-align: center;}
+.puntos h1{color: rgb(111, 216, 111);
+text-align: center;
+align-content: center;}
 
-button.b2{border: 0.15rem solid white;
+
+
+.b2{border: 0.15rem solid white;
     color: white;
     background-color: transparent;
     padding: 0.3rem 1rem;
@@ -190,26 +196,59 @@ text-align: center;}
 .contactos{background-image: 
 linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
 url('../img/imgher.jpg'); 
-display: flex;
+color: white;
+width: 100%;
+padding: 4rem 0 12rem 0;}
+
+.margenfot{ display: flex;
 flex-direction: column;
-color: white;}
+margin: 0rem 18rem;}
 
 .doscolumnasfoter{display: flex;
-justify-content: center;} 
+justify-content: space-around;} 
 
+.iconosfot{margin-top: 3.5rem;
+    justify-content: center;}
 .icfot{display: flex;
-margin-bottom: 1rem;
+margin-bottom: 0.4rem;
 font-size: 0.8rem;
 align-items: center;}
+.icfot p{margin-left: 1rem;}
+.iconosfot .b1{margin-top: 1.5rem;
+margin-left: 1rem;}
 
+.formulario{margin-top: 1rem;
+    display: flex;
+    flex-direction: column;}
+
+.formulario p{margin-bottom: 2rem;}
+
+.formulario1{display: flex;}
 
 input{border: 0.1rem solid rgb(111, 216, 111) ;
-margin: 1rem 1rem;
-background: none;}
+    border-radius: 0.4rem;
+background: none;
+margin-right: 0.4rem;
+margin-bottom: 0.5rem;
+padding: 0.4rem 4rem;}
+
+input.mensaje{padding: 2rem 13rem;}
+
+input::placeholder{font-size: 0.8rem;
+color: rgb(203, 196, 196);}
+
+.bfot{ color: rgb(111, 216, 111);
+    border-radius: 0.4rem; 
+    font-size: 0.8rem;
+border: none;
+padding: 0.5rem 13rem;}
+
+
+ 
 
 .derechos{background-color: rgb(111, 216, 111);
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 flex-direction: column;
 color: white;
 font-size: small;
@@ -224,6 +263,11 @@ button.b1{background-color: rgb(111, 216, 111);
     padding: 0.5rem 1rem;
     border-bottom: none;
     border: none;
-font-weight: bolder;}
+    font-size: 0.7rem;
+font-weight: bolder;
+align-items: center;
+text-align: center;}
+
+h1{font-size: 1.6rem;}
 
 @media (hover:hover) {button.b1:hover {color: black;}}
