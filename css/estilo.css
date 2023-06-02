@@ -66,21 +66,23 @@ width: 100%;}
 
 .margen{margin:auto 20rem;
 display: flex;
-justify-content: center;} 
+justify-content: center;
+width: auto;} 
 
 .descubri{flex-basis: 30rem;
 align-content: center;
-margin: 6rem 1.5rem;}
+margin: 6rem 1.5rem;
+width: auto;}
 
 .descubri h4{color: rgb(111, 216, 111);
 font-size:small;}
-.descubri h1{margin-bottom: 0.6rem;
-}
+.descubri h1{margin-bottom: 0.6rem;}
+u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
+
 .descubri p{text-align: justify;
 font-size: 0.9rem;
-display: flex;
 line-height: 1.2rem;}
-u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
+
 
 .habilidades{display: flex;
 flex-direction: column;
@@ -104,10 +106,9 @@ align-items: center;
 display: flex;
 color: white;
 height: 20rem;
-width: 100%;
-margin: auto;}
+width: 100%;}
 
-.caja{width: 11rem;
+.caja{width: 11%;
 height: 7rem;
 background-color: rgb(44, 43, 43);
 text-align: center;
@@ -116,33 +117,32 @@ border: 0.5rem ;
 padding: 0.5rem 1rem;
 border: 0.1rem dashed white;
 margin:0 0.6rem;}
-
 .caja h2{font-size: 2.5rem;
 margin-top: 1rem;}
-.cajados h2{font-size: 2.5rem;
-margin-top: 1rem;}
 .caja p{font-size: 1rem;}
-.cajados p{font-size: 1rem;}
 
 .cajados{ background-color: rgb(111, 216, 111);
 color: white;
 border-radius: 0.5rem;
 padding: 0.5rem 1rem;
 border-bottom: none;
-width: 11rem;
+width: 11%;
 text-align: center;
 height: 7rem;
 margin:0 0.6rem;}
-
+.cajados h2{font-size: 2.5rem;
+    margin-top: 1rem;}
+.cajados p{font-size: 1rem;}
 
 /* sec cuatro */
 .negrodos{background-color:rgb(10, 10, 10);
 color:white;
 padding: 4rem 0;
-width: 100%;}
+width: auto;}
 
 .negrodos .margen{display: flex;
 flex-direction: column;
+width: auto;
 margin: auto 20rem;}
 
 .doscolumnas{display: flex;}
@@ -152,7 +152,7 @@ border: 0.1rem solid rgb(111, 216, 111);
 border-radius: 1rem;
 margin: 1.5rem 0.5rem;
 padding: 2rem;
-width: 35rem;}
+width: 40%;}
 .col h2{color: rgb(111, 216, 111);
 margin-top: 2rem;}
 .col p{font-size: 0.8rem;
@@ -170,21 +170,33 @@ flex-direction: column;
 color: white;
 width: 100%;}
 
-.portfolio .margencinco{ margin: 3rem 18rem;}
+.portfolio .margencinco{ margin: 3% 18%;
+width: auto;}
 
-.margencinco p{font-size: 0.9rem;
+.margencinco p{font-size: 0.8rem;
 line-height: 1.2rem;
 margin-top: 1rem;
 margin-bottom: 3rem;
 text-align: justify;}
 
+.puntos{display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 100%;}
+.puntos h1{color: rgb(111, 216, 111);}
 
-.puntos h1{color: rgb(111, 216, 111);
-text-align: center;
-align-content: center;}
+.linea-ptos {
+    border-right: 0.1rem dashed white; 
+    height: 3rem;}
 
+.imgportfolio{display: flex;
+justify-content: space-around;
+width: auto;
+margin: 1% 0 1% 0;}
 
+.imgp{width: 48%;}
 
+.botoncinco{margin-top: 1rem;} 
 .b2{border: 0.15rem solid white;
     color: white;
     background-color: transparent;
@@ -202,24 +214,37 @@ padding: 4rem 0 12rem 0;}
 
 .margenfot{ display: flex;
 flex-direction: column;
-margin: 0rem 18rem;}
+width: auto;
+margin: auto 18%;}
 
 .doscolumnasfoter{display: flex;
-justify-content: space-around;} 
+width: 100%;
+justify-content: center;}
 
-.iconosfot{margin-top: 3.5rem;
-    justify-content: center;}
+
+.iconosfot{width: auto;
+margin-top: 3.5rem;}
+
+
+
 .icfot{display: flex;
 margin-bottom: 0.4rem;
-font-size: 0.8rem;
-align-items: center;}
+font-size: 0.8rem;}
 .icfot p{margin-left: 1rem;}
 .iconosfot .b1{margin-top: 1.5rem;
 margin-left: 1rem;}
 
-.formulario{margin-top: 1rem;
+
+.linea-vertical {margin: 0 2rem;
+    border-right: 1px solid rgb(111, 216, 111); 
+    height: 17rem;}
+  
+
+
+.formulario{margin-top: 0.5rem;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+width: auto;}
 
 .formulario p{margin-bottom: 2rem;}
 
@@ -230,21 +255,22 @@ input{border: 0.1rem solid rgb(111, 216, 111) ;
 background: none;
 margin-right: 0.4rem;
 margin-bottom: 0.5rem;
-padding: 0.4rem 4rem;}
+padding: 0.6rem 9rem 0 0;
+}
 
-input.mensaje{padding: 2rem 13rem;}
+input.mensaje{padding-bottom: 4rem;}
 
 input::placeholder{font-size: 0.8rem;
-color: rgb(203, 196, 196);}
+color: rgb(203, 196, 196);
+text-align: left;}
+  
 
 .bfot{ color: rgb(111, 216, 111);
     border-radius: 0.4rem; 
     font-size: 0.8rem;
 border: none;
-padding: 0.5rem 13rem;}
+padding: 0.5rem;}
 
-
- 
 
 .derechos{background-color: rgb(111, 216, 111);
 display: flex;
@@ -271,3 +297,10 @@ text-align: center;}
 h1{font-size: 1.6rem;}
 
 @media (hover:hover) {button.b1:hover {color: black;}}
+
+/* 
+La propiedad "width: auto" se utiliza para permitir que el ancho de un elemento se ajuste automáticamente según su contenido. Esto significa que el elemento ocupará el ancho mínimo necesario para contener su contenido sin desbordarse. Si el contenido del elemento es más ancho que el contenedor, el ancho se ajustará automáticamente para acomodar todo el contenido sin necesidad de desplazamiento horizontal.
+
+Por otro lado, la propiedad "width: 100%" se utiliza para establecer el ancho de un elemento al 100% del ancho de su contenedor padre. Esto significa que el elemento ocupará todo el ancho disponible dentro de su contenedor. Si el contenedor tiene un ancho fijo o se establece un ancho máximo, el elemento se expandirá para llenar ese espacio.
+
+En resumen, la diferencia entre "width: auto" y "width: 100%" radica en cómo se calcula el ancho del elemento. "Width: auto" se ajusta automáticamente según el contenido, mientras que "width: 100%" se expande para ocupar el ancho completo del contenedor padre. */
