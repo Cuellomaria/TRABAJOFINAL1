@@ -9,6 +9,6 @@
 ### CONCLUSIÓN
 <p>Soy Licenciada en Nutrición, comence este año mi recorrido por Programacion Web y hacer este proyecto para mi fue un gran desafío.Espero les guste. </p>
 ### LINKS
-<p>Aquí pueden encontrar el Portfolio de Behance que tome de referencia y mi repositorio de gibhab</p>
+<p>Aquí pueden encontrar el Portfolio de Behance que tome de referencia </p>
 `<link>` : https://www.behance.net/gallery/161854749/Portfolio-Matheus-Martins
-`<link>` : <https://github.com>
+
