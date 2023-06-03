@@ -2,16 +2,17 @@
 margin: 0;
 font-family: 'Raleway', sans-serif;}
 
-header{background-color: rgb(33, 33, 33);
+header{background-color: rgb(19, 19, 19);
 width: 100%;
 height: 5rem;
 display: flex;
-justify-content: center;
 align-items: center;
-margin: auto;}
+margin: auto;
+position: fixed;}
 
 header .logo{display: flex;
-margin-right: 20rem;}
+margin-left: 8rem;
+margin-right: 18rem;}
 
 header h3{color: white;
 font-size: 2.5rem;}
@@ -39,7 +40,7 @@ border-bottom: none;}
     linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
     url('../img/imghercopia.jpg');
 background-repeat:no-repeat;
-height: 70vh;
+height: 90vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -64,15 +65,15 @@ background:none ;}
 color:white;
 width: 100%;}
 
-.margen{margin:auto 20rem;
+.margen{margin:auto 19rem;
 display: flex;
 justify-content: center;
 width: auto;} 
 
-.descubri{flex-basis: 30rem;
+.descubri{width: 60%;
 align-content: center;
 margin: 6rem 1.5rem;
-width: auto;}
+}
 
 .descubri h4{color: rgb(111, 216, 111);
 font-size:small;}
@@ -80,27 +81,35 @@ font-size:small;}
 u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
 
 .descubri p{text-align: justify;
-font-size: 0.9rem;
+font-size: 0.8rem;
 line-height: 1.2rem;}
-
 
 .habilidades{display: flex;
 flex-direction: column;
 margin-top: 1.2rem;}
 
-.habilidades button{margin-bottom: 1rem;
-padding: 0.2rem;
-background-color:rgb(111, 216, 111);
+.habilidades button{margin-bottom: 0.8rem;
+padding: 0.16rem 1rem;
+background:  rgb(111, 216, 111); 
 color: white;
 border: none;
 display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+font-weight: bolder;}
+
+.habilidades button.html{background: linear-gradient(to right, rgb(111, 216, 111) 70%, white 30%);}
+
+.habilidades button.css{background: linear-gradient(to right, rgb(111, 216, 111) 80%, white 20%);}
+
+
 
 /* sec tres */
 .cuadrados{background-image: 
     linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
     url('../img/cuadradoimg.jpg');
 background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 justify-content: center;
 align-items: center;
 display: flex;
@@ -108,9 +117,9 @@ color: white;
 height: 20rem;
 width: 100%;}
 
-.caja{width: 11%;
+.caja{width: 12%;
 height: 7rem;
-background-color: rgb(44, 43, 43);
+background-color: rgb(30, 29, 29);
 text-align: center;
 border-radius: 0.5rem;
 border: 0.5rem ;
@@ -126,7 +135,7 @@ color: white;
 border-radius: 0.5rem;
 padding: 0.5rem 1rem;
 border-bottom: none;
-width: 11%;
+width: 12%;
 text-align: center;
 height: 7rem;
 margin:0 0.6rem;}
@@ -138,21 +147,23 @@ margin:0 0.6rem;}
 .negrodos{background-color:rgb(10, 10, 10);
 color:white;
 padding: 4rem 0;
-width: auto;}
+width: 100%;}
 
 .negrodos .margen{display: flex;
 flex-direction: column;
 width: auto;
-margin: auto 20rem;}
+margin: auto 19rem;}
 
-.doscolumnas{display: flex;}
+.doscolumnas{display: flex;
+justify-content: center;
+width: auto;}
 
-.col{background-color: rgb(44, 43, 43);
+.col{background-color: rgb(30, 29, 29);
 border: 0.1rem solid rgb(111, 216, 111);
 border-radius: 1rem;
 margin: 1.5rem 0.5rem;
 padding: 2rem;
-width: 40%;}
+width: 39%;}
 .col h2{color: rgb(111, 216, 111);
 margin-top: 2rem;}
 .col p{font-size: 0.8rem;
@@ -164,14 +175,15 @@ margin-top:0.2rem;}
 align-self: center;}
 
 /* sec cinco */
- .portfolio{background-color: rgb(44, 43, 43);
+ .portfolio{background-color: rgb(30, 29, 29);
 display: flex;
 flex-direction: column;
 color: white;
-width: 100%;}
+width: 100%;
+justify-content: center;}
 
-.portfolio .margencinco{ margin: 3% 18%;
-width: auto;}
+.portfolio .margencinco{ margin: 3rem 18rem;
+width: 60%;}
 
 .margencinco p{font-size: 0.8rem;
 line-height: 1.2rem;
@@ -182,7 +194,7 @@ text-align: justify;}
 .puntos{display: flex;
     flex-direction: column;
     align-items: center;
-width: 100%;}
+width: auto;}
 .puntos h1{color: rgb(111, 216, 111);}
 
 .linea-ptos {
@@ -207,15 +219,19 @@ text-align: center;}
 /* footer */
 .contactos{background-image: 
 linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
-url('../img/imgher.jpg'); 
+url('../img/imgher.jpg');
+background-position: center;
+background-size: cover;
 color: white;
 width: 100%;
-padding: 4rem 0 12rem 0;}
+padding: 8rem 0 8rem 0;
+}
+
 
 .margenfot{ display: flex;
 flex-direction: column;
 width: auto;
-margin: auto 18%;}
+margin: auto 18rem;}
 
 .doscolumnasfoter{display: flex;
 width: 100%;
@@ -235,41 +251,40 @@ font-size: 0.8rem;}
 margin-left: 1rem;}
 
 
-.linea-vertical {margin: 0 2rem;
+.linea-vertical {margin: 0 1.5rem;
     border-right: 1px solid rgb(111, 216, 111); 
     height: 17rem;}
   
 
 
-.formulario{margin-top: 0.5rem;
+.formulario{margin-top: 0.8rem;
     display: flex;
-    flex-direction: column;
-width: auto;}
+    flex-direction: column;}
 
 .formulario p{margin-bottom: 2rem;}
 
-.formulario1{display: flex;}
+.formulario1{display: flex;
+width: auto;}
 
 input{border: 0.1rem solid rgb(111, 216, 111) ;
     border-radius: 0.4rem;
 background: none;
 margin-right: 0.4rem;
 margin-bottom: 0.5rem;
-padding: 0.6rem 9rem 0 0;
-}
+padding: 0.4rem 9rem 0.4rem 0;}
 
 input.mensaje{padding-bottom: 4rem;}
 
 input::placeholder{font-size: 0.8rem;
-color: rgb(203, 196, 196);
-text-align: left;}
+color: rgb(203, 196, 196);}
   
 
 .bfot{ color: rgb(111, 216, 111);
     border-radius: 0.4rem; 
     font-size: 0.8rem;
 border: none;
-padding: 0.5rem;}
+padding: 0.5rem;
+width: 99%;}
 
 
 .derechos{background-color: rgb(111, 216, 111);
@@ -304,3 +319,26 @@ La propiedad "width: auto" se utiliza para permitir que el ancho de un elemento 
 Por otro lado, la propiedad "width: 100%" se utiliza para establecer el ancho de un elemento al 100% del ancho de su contenedor padre. Esto significa que el elemento ocupará todo el ancho disponible dentro de su contenedor. Si el contenedor tiene un ancho fijo o se establece un ancho máximo, el elemento se expandirá para llenar ese espacio.
 
 En resumen, la diferencia entre "width: auto" y "width: 100%" radica en cómo se calcula el ancho del elemento. "Width: auto" se ajusta automáticamente según el contenido, mientras que "width: 100%" se expande para ocupar el ancho completo del contenedor padre. */
+
+
+    /* sector media queries */
+
+    @media screen and (min-width:1024px){
+        body{
+            background-color:white;
+        }
+    }
+    
+    /*tablet*/
+    @media screen and (min-width:768px) and (max-width:1023px){
+        body{
+            background-color: rgb(139, 139, 188);
+        }
+    }
+    
+    /*celular*/
+    @media screen and (max-width:767px){
+    body{
+        background-color: rgb(135, 187, 135);
+    }
+    }
