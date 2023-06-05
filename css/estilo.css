@@ -42,11 +42,10 @@ header nav a{text-decoration: none;
  background-position: center;
  background-size: cover;
  background-repeat:no-repeat;
- height: 70vh;
+ height: 80vh;
  display: flex;
  flex-direction: column;
  justify-content: center;
- align-content: center;
  align-items: center;}
  
  .hero img{border-radius: 50%;
@@ -60,7 +59,7 @@ header nav a{text-decoration: none;
  padding: 0.9rem 0.1rem;
  border: 0.1rem solid rgb(111, 216, 111);
  background:none ;}
-  .icohero:hover{ border: 0.1rem solid black; cursor: pointer;}
+  .icohero:hover{border: 0.1rem solid black; cursor: pointer;}
 
 /* sec  dos*/
 .negro{background-color: rgb(10, 10, 10);
