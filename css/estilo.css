@@ -47,50 +47,53 @@ header nav a{text-decoration: none;
  flex-direction: column;
  justify-content: center;
  align-content: center;
- align-items: center;
-}
+ align-items: center;}
  
-
-.hero img{border-radius: 50%;
+ .hero img{border-radius: 50%;
  width: 10rem;
  margin: 5% 0 1% 0;}
 
-.hero h1{color: rgb(111, 216, 111);}
-.hero p{color: white;
+ .hero h1{color: rgb(111, 216, 111);}
+ .hero p{color: white;
  margin-bottom: 0.9rem;}
-.icohero{border-radius: 4rem;
+ .icohero{border-radius: 4rem;
  padding: 0.9rem 0.1rem;
  border: 0.1rem solid rgb(111, 216, 111);
  background:none ;}
+  .icohero:hover{ border: 0.1rem solid black; cursor: pointer;}
 
 /* sec  dos*/
 .negro{background-color: rgb(10, 10, 10);
  color:white;
  width: 100%;}
 
-.margen{margin:auto 19rem;
+ .margen{margin:auto 19rem;
  display: flex;
  justify-content: center;
  width: auto;} 
 
-.descubri{width: 60%;
+ .descubri{width: 60%;
  align-content: center;
- margin: 6rem 1.5rem;}
+ margin: 6rem 0;
+ padding:1em;}
+ .descubri:hover{background-color: rgb(31, 31, 31);
+border-radius: 0.5rem;
+padding:1em;}
 
-.descubri h4{color: rgb(111, 216, 111);
+ .descubri h4{color: rgb(111, 216, 111);
  font-size:small;}
-.descubri h1{margin-bottom: 0.6rem;}
-u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
+ .descubri h1{margin-bottom: 0.6rem;}
+ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
 
-.descubri p{text-align: justify;
+ .descubri p{text-align: justify;
  font-size: 0.8rem;
  line-height: 1.2rem;}
 
-.habilidades{display: flex;
+ .habilidades{display: flex;
  flex-direction: column;
  margin-top: 1.2rem;}
 
-.habilidades button{margin-bottom: 0.8rem;
+ .habilidades button{margin-bottom: 0.8rem;
  padding: 0.16rem 1rem;
  background:  rgb(111, 216, 111); 
  color: white;
@@ -99,12 +102,11 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  justify-content: space-between;
  font-weight: bolder;}
 
-.habilidades button.html{background: linear-gradient(to right, rgb(111, 216, 111) 70%, white 30%);}
-
-.habilidades button.css{background: linear-gradient(to right, rgb(111, 216, 111) 80%, white 20%);}
+ .habilidades button.html{background: linear-gradient(to right, rgb(111, 216, 111) 70%, white 30%);}
+ .habilidades button.css{background: linear-gradient(to right, rgb(111, 216, 111) 80%, white 20%);}
 
 /* sec tres */
-.cuadrados{background-image: 
+ .cuadrados{background-image: 
    linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
    url('../img/cuadradoimg.jpg');
  background-repeat: no-repeat;
@@ -117,7 +119,7 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  height: 20rem;
  width: auto; }
   
-.caja{width: 14%;
+ .caja{width: 14%;
  height: 8rem;
  background-color: rgb(30, 29, 29);
  display: flex;
@@ -128,10 +130,12 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  border-radius: 0.5rem;
  border: 0.1rem dashed rgb(224, 222, 222);
  margin:0 0.6rem;}
-.caja h2{font-size: 2.5rem;}
-.caja p{font-size: 1rem;}
+ .caja h2{font-size: 2.5rem;}
+ .caja h2:hover{font-size: 3rem;
+   color: rgb(111, 216, 111);}
+ .caja p{font-size: 1rem;}
 
-.cajados{ background-color: rgb(111, 216, 111);
+ .cajados{ background-color: rgb(111, 216, 111);
  color: white;
  border-radius: 0.5rem;
  border-bottom: none;
@@ -143,8 +147,10 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  justify-content: center;
  height: 8rem;
  margin:0 0.6rem;}
-.cajados h2{font-size: 2.5rem;}
-.cajados p{font-size: 1rem;}
+ .cajados h2{font-size: 2.5rem;}
+ .cajados h2:hover{font-size: 3rem;
+   color: rgb(30, 29, 29);}
+ .cajados p{font-size: 1rem;}
 
 /* sec cuatro */
 .negrodos{background-color:rgb(10, 10, 10);
@@ -152,29 +158,30 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  padding: 4rem 0;
  width: 100%;}
 
-.negrodos .margen{display: flex;
+ .negrodos .margen{display: flex;
  flex-direction: column;
  width: auto;
  margin: auto 19rem;}
 
-.doscolumnas{display: flex;
+ .doscolumnas{display: flex;
  justify-content: center;
  width: auto;}
 
-.col{background-color: rgb(30, 29, 29);
+ .col{background-color: rgb(30, 29, 29);
  border: 0.1rem solid rgb(111, 216, 111);
  border-radius: 1rem;
  margin: 1.5rem 0.5rem;
  padding: 2rem;
  width: 39%;}
-.col h2{color: rgb(111, 216, 111);
+ .col:hover {border: 0.1rem solid rgb(30, 29, 29);}
+ .col h2{color: rgb(111, 216, 111);
  margin-top: 2rem;}
-.col p{font-size: 0.8rem;
+ .col p{font-size: 0.8rem;
  line-height: 1.2rem;
  margin-bottom: 0.8rem;
  margin-top:0.2rem;}
 
-.bot4{margin-top: 1.5rem;
+ .bot4{margin-top: 1.5rem;
  align-self: center;}
 
 /* sec cinco */
@@ -185,33 +192,35 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  width: 100%;
  justify-content: center;}
 
-.portfolio .margencinco{ margin: 3rem 18rem;
+ .portfolio .margencinco{ margin: 3rem 19rem;
  width: 60%;}
 
-.margencinco p{font-size: 0.8rem;
+ .margencinco p{font-size: 0.8rem;
  line-height: 1.2rem;
  margin-top: 1rem;
  margin-bottom: 3rem;
  text-align: justify;}
 
-.puntos{display: flex;
+ .puntos{display: flex;
  flex-direction: column;
  align-items: center;
  width: auto;}
-.puntos h1{color: rgb(111, 216, 111);}
+ .puntos h1{color: rgb(111, 216, 111);}
 
-.linea-ptos {border-right: 0.1rem dashed white; 
+ .linea-ptos {border-right: 0.1rem dashed white; 
  height: 3rem;}
 
-.imgportfolio{display: flex;
+ .imgportfolio{display: flex;
  justify-content: space-around;
  width: auto;
  margin: 1% 0 1% 0;}
 
-.imgp{width: 48%;}
+ .imgp{width: 48%;
+   border:0.3rem solid;}
+ .imgp:hover{border:0.3rem solid rgb(111, 216, 111);}
 
-.botoncinco{margin-top: 1rem;} 
-.b2{border: 0.15rem solid white;
+ .botoncinco{margin-top: 1rem;} 
+ .b2{border: 0.15rem solid white;
  color: white;
  background-color: transparent;
  padding: 0.3rem 1rem;
@@ -221,7 +230,7 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
     cursor: pointer;}
 
 /* footer */
-.contactos{background-image: 
+ .contactos{background-image: 
    linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
    url('../img/imgher.jpg');
  background-position: center;
@@ -230,66 +239,69 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  width: 100%;
  padding: 5rem 0 8rem 0;}
 
-.margenfot{ display: flex;
+ .margenfot{ display: flex;
  flex-direction: column;
  width: auto;
- margin: auto 16rem;}
+ margin: auto 19rem;}
 
-.doscolumnasfoter{display: flex;
+ .doscolumnasfoter{display: flex;
  width: 100%;
  justify-content: center;}
 
-.iconosfot{width: auto;
+ .iconosfot{width: auto;
  margin-top: 2.5rem;
-margin-right: 1rem;}
+ margin-right: 1rem;}
 
-.icfot{ margin-top: 0.6rem;
- font-size: 0.8rem;
-}
+ .icfot{ margin-top: 0.6rem;
+ font-size: 0.8rem;}
 
-.icfot a{display: flex;
+ .icfot a{display: flex;
  text-decoration: none;
  color: white;
  align-items: center;}
+ .icfot a:hover{color: rgb(111, 216, 111);}
 
  .icfot svg{margin-right: 0.8rem;}
-
 
 .iconosfot .b1{margin-top: 1.5rem;
  margin-left: 1rem;}
 
-.linea-vertical {margin: 0 1.5rem;
+ .linea-vertical {margin: 0 1.5rem;
  border-right: 1px solid rgb(111, 216, 111); 
  height: 17rem;}
   
-.formulario{margin-top: 0.8rem;
+ .formulario{margin-top: 0.8rem;
  display: flex;
  flex-direction: column;}
 
-.formulario p{margin-bottom: 2rem;}
+ .formulario p{margin-bottom: 2rem;}
 
-.formulario1{display: flex;
+ .formulario1{display: flex;
  width: auto;}
 
-input{border: 0.1rem solid rgb(111, 216, 111) ;
+ input{border: 0.1rem solid rgb(111, 216, 111) ;
  border-radius: 0.4rem;
  background: none;
  margin-right: 0.4rem;
  margin-bottom: 0.5rem;
- padding: 0.4rem 9rem 0.4rem 0;}
+ padding: 0.4rem 9rem 0.4rem 0;
+ cursor: pointer;}
 
-input.mensaje{padding-bottom: 4rem;}
+ input.mensaje{padding-bottom: 4rem;}
 
-input::placeholder{font-size: 0.8rem;
+ input::placeholder{font-size: 0.8rem;
  color: rgb(203, 196, 196);}
   
-.bfot{ color: rgb(111, 216, 111);
+ .bfot{ color: rgb(111, 216, 111);
  border-radius: 0.4rem; 
  font-size: 0.8rem;
  border: none;
  padding: 0.5rem;
  width: 99%;
  cursor: pointer;}
+  .bfot:hover{background-color: rgb(111, 216, 111);
+ color: black;
+ border: none;}
 
 .derechos{background-color: rgb(111, 216, 111);
  display: flex;
@@ -311,26 +323,67 @@ button.b1{background-color: rgb(111, 216, 111);
  font-weight: bolder;
  align-items: center;
  text-align: center;}
-
-h1{font-size: 1.6rem;}
-
-@media (hover:hover) {button.b1:hover {color: black;  cursor: pointer;}}
+  button.b1:hover {color: black;  cursor: pointer;}
+ h1{font-size: 1.6rem;}
 
 
-    /* sector media queries */
+/* sector media queries */
 
- /* @media screen and (min-width:1440px)  */
+/* pantalla profe */@media screen and (min-width:1920px) {
+ /* header */
+  header{ align-items: center;
+    justify-content: left;
+    position: fixed;}
+   header .logo{display: flex;
+     margin: auto 30rem auto 12rem;}
+  .boton{margin-left:5rem;}
 
-    /*tablet*/
- @media screen and (min-width:768px) and (max-width: 1020px) {   
-  /* header */  
-  header .logo{display: flex;
+ /* sec  dos*/
+  .negro{background-color: rgb(10, 10, 10);
+    color:white;
+    width: 100%;}
+ .margen{margin:auto 23rem;
+    display: flex;
+    justify-content: center;
+    width: auto;} 
+ .descubri{width: 35%;}
+
+ /* sec tres */
+ .caja{width: 13%;
+    height: 10rem;}
+
+ .cajados{ width: 13%;
+    height: 10rem;}
+
+ /* sec cuatro */
+ .negrodos .margen{display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto 23rem;}
+ .doscolumnas{display: flex;
+    justify-content: center;
+    width: auto;}
+ .col{ width: 35%;}
+
+ /* sec cinco */
+  .portfolio .margencinco{ margin: 3rem 23rem;
+    width: 60%;}
+
+ /* footer */
+ .margenfot{margin: auto 23rem;}
+                                                              }
+
+
+/* @media screen and (max-width: 1440px) {} se ve bien*/
+
+/*tablet*/ @media screen and (min-width:769px) and (max-width: 1024px) {   
+ /* header */  
+   header .logo{display: flex;
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
-    }
-        header nav a{display: none;}
-        .boton{display: none;}
+    justify-content: center;    }
+    header nav a{display: none;}
+      .boton{display: none;}
       
   /* sec uno */
     .hero{ height: 60vh;}
@@ -341,7 +394,6 @@ h1{font-size: 1.6rem;}
     flex-wrap: wrap;
     justify-content: center;
     width: auto;} 
-   
    .descubri{margin: 2.5rem 1.5rem;}
    
    /* sec cuatro */
@@ -349,117 +401,71 @@ h1{font-size: 1.6rem;}
     color:white;
     padding: 4rem 0;
     width: 100%;}
-   
    .negrodos .margen{display: flex;
     flex-direction: column;
     width: auto;
     margin: auto 8rem;}
-   
    .doscolumnas{display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: auto;}
-   
-   .col{background-color: rgb(30, 29, 29);
-    border: 0.1rem solid rgb(111, 216, 111);
-    border-radius: 1rem;
-    margin: 1.5rem 0.5rem;
+   .col{ margin: 1.5rem 0.5rem;
     padding: 2rem;
     width: 65%;}
    
  /* sec cinco */
     .portfolio{
     align-items: center;}
-       
     .portfolio .margencinco{ 
      width: 70%;}
         
-
  /* footer */
- .contactos{background-image: 
-    linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
-    url('../img/imgher.jpg');
-  background-position: center;
-  background-size: cover;
-  color: white;
-  width: 100%;
-  padding: 5rem 0 8rem 0;}
- 
- .margenfot{ display: flex;
-  flex-direction: column;
-  width: auto;
-  margin: auto 6rem;}
- 
- .doscolumnasfoter{display: flex;
-  width: auto;
-  flex-wrap: wrap;
-  justify-content: center;}
- 
- .iconosfot{width: auto;
-  margin-top: 2rem;}
- 
- .icfot{  margin-bottom: 0.4rem;
-  font-size: 0.8rem;}
- .icfot p{margin-left: 1rem;}
- .iconosfot .b1{margin: 1.5rem 0 2rem;
-  margin-left: 1rem;}
- 
- .linea-vertical {display: none;} 
-   
- .formulario{
-  display: flex;
-  flex-direction: column;}
- 
- .formulario p{margin-bottom: 2rem;}
+    .margenfot{ display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto 10rem;}
+   .doscolumnasfoter{display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
+    .linea-vertical {display: none;}
+    .formulario{margin-top: 2rem;}
+    .formulario p{margin-bottom: 2rem;}
+                                                 }
 
-                                               }
-
-    
-    /*celular*/
-
-
-
-
-
-@media screen and (max-width:768px) {
-
- /* header */
-
+/*celular*/ @media screen and (max-width:768px) {
+  /* header */
    header .logo{display: flex;
-margin: 0 auto;
-align-items: center;
-justify-content: center;}
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;}
    header nav a{display: none;}
    .boton{display: none;}
    
   /* sec  dos*/
-
   .negro{background-color: rgb(10, 10, 10);
     color:white;
     width: 100%;}
-   
    .margen{margin:0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: auto;} 
-   
    .descubri{width: 90%;
     align-content: center;
     margin: 2.5rem 1.5rem;}
    
-/* sec tres */
-.cuadrados{  flex-wrap: wrap;}
-   
+ /* sec tres */
+ .cuadrados{  flex-wrap: wrap;}
  .caja{width: 30%;
-  height: 7rem;}
-
+    height: 7rem;}
  .cajados{ 
-  width: 30%;
-  height: 7rem;}
+    width: 30%;
+    height: 7rem;}
 
-/* sec cuatro */
-.negrodos{background-color:rgb(10, 10, 10);
+ /* sec cuatro */
+ .negrodos{background-color:rgb(10, 10, 10);
     color:white;
     padding: 4rem 0;
     width: 100%;}
@@ -467,58 +473,41 @@ justify-content: center;}
     flex-direction: column;
     width:80%;
     margin: auto 2rem;}
-   
    .doscolumnas{display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;}
-   
    .col{ width: auto;}
    
-   .bot4{margin-top: 1.5rem;
-    display: flex;
-    align-content:  center;
-justify-content: center;}
-
-/* sec cinco */
+ /* sec cinco */
    .portfolio .margencinco{ margin: 3rem 4rem;
     width: 70%;}
    
-
-/* footer */
-.contactos{
-  padding: 4rem 0 6rem 0;
-}
- 
+ /* footer */
+ .contactos{ padding: 4rem 0 6rem 0;}
  .margenfot{ display: flex;
-  flex-direction: column;
-  width: auto;
-  margin: auto 2rem;}
- 
+    flex-direction: column;
+    width: auto;
+    margin: auto 2rem;}
  .doscolumnasfoter{display: flex;
     flex-direction: column;
     align-items: center;
-  width: auto;}
- 
+    width: auto;}
  .iconosfot{width: auto;
-  margin-top: 2rem;
- margin-right: 1rem;}
-
- .icfot a{display: flex;
-  text-decoration: none;
-  color: white;
-  align-items: center;}
-
+    margin-top: 2rem;
+    margin-right: 1rem;}         
  .linea-vertical {display: none;}
-   
  .formulario{margin-top: 1.5rem;
-  display: flex;
-  flex-direction: column;}
- 
+    display: flex;
+    flex-direction: column;}
  .formulario p{margin-bottom: 2rem;}
- 
  .formulario1{display: flex;
     flex-direction: column;
-  width: auto;}
-}
+    width: auto;}
+                                                          }
+
+
+
+
+
