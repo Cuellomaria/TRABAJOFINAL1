@@ -416,7 +416,12 @@ h1{font-size: 1.6rem;}
 
     
     /*celular*/
-@media screen and (max-width:420px) {
+
+
+
+
+
+@media screen and (max-width:768px) {
 
  /* header */
 
