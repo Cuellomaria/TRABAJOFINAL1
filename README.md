@@ -2,15 +2,20 @@
 ###  LANDING PAGE
 <p>Este proyecto es parte de la Diplomatura en Desarrollo Wed, de la Facultad Nacional Tecnológica.</p>
 
-### Algunos de los temas vistos, que se buscan exponer en el trabajo son
+### Algunos de los temas vistos, que se buscan exponer en el trabajo son:
 -HTML
+
 -CSS
+
 -GIT BASH
+
 -GIT HUB
 
 ##### Se utilizaron las siguientes medidas de médias queries:
 -(min-width:1920px)
+
 -(min-width:769px) and (max-width: 1024px)
+
 -(max-width:768px)
 
 ### CONCLUSIÓN
