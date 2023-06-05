@@ -8,6 +8,11 @@
 -GIT BASH
 -GIT HUB
 
+##### Se utilizaron las siguientes medidas de médias queries:
+-(min-width:1920px)
+-(min-width:769px) and (max-width: 1024px)
+-(max-width:768px)
+
 ### CONCLUSIÓN
 <p>Soy Licenciada en Nutrición, comence este año mi recorrido por Programacion Web y hacer este proyecto para mi fue un gran desafío.Espero les guste. </p>
 
