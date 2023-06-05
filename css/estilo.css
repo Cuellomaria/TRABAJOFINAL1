@@ -2,7 +2,6 @@
  margin: 0;
  font-family: 'Raleway', sans-serif;}
 
-
 /* header */
 header{background-color: rgb(19, 19, 19);
  width: 100%;
@@ -116,31 +115,35 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  display: flex;
  color: white;
  height: 20rem;
- width: 100%; }
+ width: auto; }
   
-.caja{width: 12%;
- height: 7rem;
+.caja{width: 14%;
+ height: 8rem;
  background-color: rgb(30, 29, 29);
+ display: flex;
+ flex-direction: column;
  text-align: center;
+ align-items: center;
+ justify-content: center;
  border-radius: 0.5rem;
- padding: 0.5rem 1rem;
- border: 0.1rem dashed white;
+ border: 0.1rem dashed rgb(224, 222, 222);
  margin:0 0.6rem;}
-.caja h2{font-size: 2.5rem;
- margin-top: 1rem;}
+.caja h2{font-size: 2.5rem;}
 .caja p{font-size: 1rem;}
 
 .cajados{ background-color: rgb(111, 216, 111);
  color: white;
  border-radius: 0.5rem;
- padding: 0.5rem 1rem;
  border-bottom: none;
- width: 12%;
+ width: 14%;
+ display: flex;
+ flex-direction: column;
  text-align: center;
- height: 7rem;
+ align-items: center;
+ justify-content: center;
+ height: 8rem;
  margin:0 0.6rem;}
-.cajados h2{font-size: 2.5rem;
- margin-top: 1rem;}
+.cajados h2{font-size: 2.5rem;}
 .cajados p{font-size: 1rem;}
 
 /* sec cuatro */
@@ -240,8 +243,7 @@ u{text-decoration:underline rgb(111, 216, 111) 0.14rem;}
  margin-top: 2.5rem;
 margin-right: 1rem;}
 
-.icfot{display: flex;
- margin-top: 0.6rem;
+.icfot{ margin-top: 0.6rem;
  font-size: 0.8rem;
 }
 
@@ -320,9 +322,13 @@ h1{font-size: 1.6rem;}
  /* @media screen and (min-width:1440px)  */
 
     /*tablet*/
- @media screen and (min-width:768px) and (max-width: 800px) {   
+ @media screen and (min-width:768px) and (max-width: 1020px) {   
   /* header */  
- 
+  header .logo{display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    }
         header nav a{display: none;}
         .boton{display: none;}
       
@@ -330,14 +336,13 @@ h1{font-size: 1.6rem;}
     .hero{ height: 60vh;}
  
   /* sec  dos*/
-
    .margen{margin:auto 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: auto;} 
    
-   .descubri{margin: 3rem 1.5rem;}
+   .descubri{margin: 2.5rem 1.5rem;}
    
    /* sec cuatro */
    .negrodos{background-color:rgb(10, 10, 10);
@@ -362,16 +367,16 @@ h1{font-size: 1.6rem;}
     padding: 2rem;
     width: 65%;}
    
-    /* sec cinco */
-       .portfolio{
-        align-items: center;}
+ /* sec cinco */
+    .portfolio{
+    align-items: center;}
        
-        .portfolio .margencinco{ 
-        width: 70%;}
+    .portfolio .margencinco{ 
+     width: 70%;}
         
-    
-/* footer */
-.contactos{background-image: 
+
+ /* footer */
+ .contactos{background-image: 
     linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),
     url('../img/imgher.jpg');
   background-position: center;
@@ -407,21 +412,108 @@ h1{font-size: 1.6rem;}
  
  .formulario p{margin-bottom: 2rem;}
 
-    }
-
-
-
-
-
-
-
-
-
+                                               }
 
     
     /*celular*/
-    @media screen and (max-width:390px){
-    body{
-      
-    }
-    }
+@media screen and (max-width:420px) {
+
+ /* header */
+
+   header .logo{display: flex;
+margin: 0 auto;
+align-items: center;
+justify-content: center;}
+   header nav a{display: none;}
+   .boton{display: none;}
+   
+  /* sec  dos*/
+
+  .negro{background-color: rgb(10, 10, 10);
+    color:white;
+    width: 100%;}
+   
+   .margen{margin:0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;} 
+   
+   .descubri{width: 90%;
+    align-content: center;
+    margin: 2.5rem 1.5rem;}
+   
+/* sec tres */
+.cuadrados{  flex-wrap: wrap;}
+   
+ .caja{width: 30%;
+  height: 7rem;}
+
+ .cajados{ 
+  width: 30%;
+  height: 7rem;}
+
+/* sec cuatro */
+.negrodos{background-color:rgb(10, 10, 10);
+    color:white;
+    padding: 4rem 0;
+    width: 100%;}
+ .negrodos .margen{display: flex;
+    flex-direction: column;
+    width:80%;
+    margin: auto 2rem;}
+   
+   .doscolumnas{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;}
+   
+   .col{ width: auto;}
+   
+   .bot4{margin-top: 1.5rem;
+    display: flex;
+    align-content:  center;
+justify-content: center;}
+
+/* sec cinco */
+   .portfolio .margencinco{ margin: 3rem 4rem;
+    width: 70%;}
+   
+
+/* footer */
+.contactos{
+  padding: 4rem 0 6rem 0;
+}
+ 
+ .margenfot{ display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: auto 2rem;}
+ 
+ .doscolumnasfoter{display: flex;
+    flex-direction: column;
+    align-items: center;
+  width: auto;}
+ 
+ .iconosfot{width: auto;
+  margin-top: 2rem;
+ margin-right: 1rem;}
+
+ .icfot a{display: flex;
+  text-decoration: none;
+  color: white;
+  align-items: center;}
+
+ .linea-vertical {display: none;}
+   
+ .formulario{margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;}
+ 
+ .formulario p{margin-bottom: 2rem;}
+ 
+ .formulario1{display: flex;
+    flex-direction: column;
+  width: auto;}
+}
