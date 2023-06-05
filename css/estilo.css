@@ -319,8 +319,6 @@ h1{font-size: 1.6rem;}
 
  /* @media screen and (min-width:1440px)  */
 
-
-
     /*tablet*/
  @media screen and (min-width:768px) and (max-width: 800px) {   
   /* header */  
@@ -408,29 +406,6 @@ h1{font-size: 1.6rem;}
   flex-direction: column;}
  
  .formulario p{margin-bottom: 2rem;}
- 
- .formulario1{display: flex;
- }
- 
- input{border: 0.1rem solid rgb(111, 216, 111) ;
-  border-radius: 0.4rem;
-  background: none;
-  margin-right: 0.4rem;
-  margin-bottom: 0.5rem;
-  padding: 0.4rem 9rem 0.4rem 0;}
- 
- input.mensaje{padding-bottom: 4rem;}
- 
- input::placeholder{font-size: 0.8rem;
-  color: rgb(203, 196, 196);}
-   
- .bfot{ color: rgb(111, 216, 111);
-  border-radius: 0.4rem; 
-  font-size: 0.8rem;
-  border: none;
-  padding: 0.5rem;
-  width: 99%;
-  cursor: pointer;}
 
     }
 
