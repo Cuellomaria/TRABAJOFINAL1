@@ -87,7 +87,9 @@ padding:1em;}
  .descubri p{text-align: justify;
  font-size: 0.8rem;
  line-height: 1.2rem;}
-
+ .habilidades .izq{padding-right: 16rem;}
+ .habilidades .sie{padding-right: 13rem;}
+ .habilidades .och{padding-right: 16rem;}
  .habilidades{display: flex;
  flex-direction: column;
  margin-top: 1.2rem;}
@@ -98,7 +100,7 @@ padding:1em;}
  color: white;
  border: none;
  display: flex;
- justify-content: space-between;
+
  font-weight: bolder;}
 
  .habilidades button.html{background: linear-gradient(to right, rgb(111, 216, 111) 70%, white 30%);}
@@ -189,7 +191,8 @@ padding:1em;}
  flex-direction: column;
  color: white;
  width: 100%;
- justify-content: center;}
+ justify-content: center;
+align-items: center;}
 
  .portfolio .margencinco{ margin: 3rem 19rem;
  width: 60%;}
@@ -211,11 +214,11 @@ padding:1em;}
 
  .imgportfolio{display: flex;
  justify-content: space-around;
- width: auto;
- margin: 1% 0 1% 0;}
+ width: auto; }
 
  .imgp{width: 48%;
-   border:0.3rem solid;}
+ border:0.3rem solid;
+ margin: 0.5rem;}
  .imgp:hover{border:0.3rem solid rgb(111, 216, 111);}
 
  .botoncinco{margin-top: 1rem;} 
@@ -241,7 +244,8 @@ padding:1em;}
  .margenfot{ display: flex;
  flex-direction: column;
  width: auto;
- margin: auto 19rem;}
+ margin: auto 19rem;
+}
 
  .doscolumnasfoter{display: flex;
  width: 100%;
@@ -345,7 +349,7 @@ button.b1{background-color: rgb(111, 216, 111);
     display: flex;
     justify-content: center;
     width: auto;} 
- .descubri{width: 35%;}
+ .descubri{width: 40%;}
 
  /* sec tres */
  .caja{width: 13%;
@@ -358,7 +362,7 @@ button.b1{background-color: rgb(111, 216, 111);
  .negrodos .margen{display: flex;
     flex-direction: column;
     width: auto;
-    margin: auto 23rem;}
+    margin: 3rem 23rem;}
  .doscolumnas{display: flex;
     justify-content: center;
     width: auto;}
@@ -366,11 +370,15 @@ button.b1{background-color: rgb(111, 216, 111);
 
  /* sec cinco */
   .portfolio .margencinco{ margin: 3rem 23rem;
-    width: 60%;}
+    width: 60%;
+   align-items: center;}
 
  /* footer */
  .margenfot{margin: auto 23rem;}
                                                               }
+
+
+
 
 
 /* @media screen and (max-width: 1440px) {} se ve bien*/
@@ -445,50 +453,53 @@ button.b1{background-color: rgb(111, 216, 111);
   /* sec  dos*/
   .negro{background-color: rgb(10, 10, 10);
     color:white;
-    width: 100%;}
-   .margen{margin:0 2rem;
+    }
+   .margen{margin:0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: auto;} 
-   .descubri{width: 90%;
-    align-content: center;
-    margin: 2.5rem 1.5rem;}
+    align-items: center;
+    width: 100%;} 
+   .descubri{width: 60%;
+    margin: 2rem 0rem;}
    
  /* sec tres */
  .cuadrados{  flex-wrap: wrap;}
- .caja{width: 30%;
+ .caja{width: 25%;
     height: 7rem;}
  .cajados{ 
-    width: 30%;
+    width: 25%;
     height: 7rem;}
 
  /* sec cuatro */
  .negrodos{background-color:rgb(10, 10, 10);
     color:white;
-    padding: 4rem 0;
-    width: 100%;}
+    padding: 4rem 0;}
  .negrodos .margen{display: flex;
     flex-direction: column;
-    width:80%;
-    margin: auto 2rem;}
+    margin: auto;}
+    .margen .soluc{ margin: auto;
+      width: 60%;}
    .doscolumnas{display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;}
-   .col{ width: auto;}
-   
+    width: 55%;}
+   .col{ width:auto;
+   height: 20rem;}
+
  /* sec cinco */
-   .portfolio .margencinco{ margin: 3rem 4rem;
-    width: 70%;}
-   
+   .portfolio .margencinco{ margin: 3rem auto;
+   width: 60%;}
+   .imgp{width: 48%;
+     border:0.3rem solid;
+     margin: 0.5rem;}
+  
+ 
  /* footer */
  .contactos{ padding: 4rem 0 6rem 0;}
  .margenfot{ display: flex;
     flex-direction: column;
-    width: auto;
-    margin: auto 2rem;}
+    width: 60%;
+    margin: auto;}
  .doscolumnasfoter{display: flex;
     flex-direction: column;
     align-items: center;
