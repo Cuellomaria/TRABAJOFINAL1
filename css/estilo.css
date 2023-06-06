@@ -87,9 +87,6 @@ padding:1em;}
  .descubri p{text-align: justify;
  font-size: 0.8rem;
  line-height: 1.2rem;}
- .habilidades .izq{padding-right: 16rem;}
- .habilidades .sie{padding-right: 13rem;}
- .habilidades .och{padding-right: 16rem;}
  .habilidades{display: flex;
  flex-direction: column;
  margin-top: 1.2rem;}
@@ -100,7 +97,7 @@ padding:1em;}
  color: white;
  border: none;
  display: flex;
-
+ justify-content: space-between;
  font-weight: bolder;}
 
  .habilidades button.html{background: linear-gradient(to right, rgb(111, 216, 111) 70%, white 30%);}
