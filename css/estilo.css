@@ -97,7 +97,7 @@ padding:1em;}
  color: white;
  border: none;
  display: flex;
-justify-content: center;
+justify-content: space-between;
  font-weight: bolder;}
 
  .habilidades button.html{background: linear-gradient(to right, rgb(111, 216, 111) 70%, white 30%);}
