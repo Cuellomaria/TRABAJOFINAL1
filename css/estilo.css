@@ -97,7 +97,7 @@ padding:1em;}
  color: white;
  border: none;
  display: flex;
- justify-content: space-between;
+justify-content: center;
  font-weight: bolder;}
 
  .habilidades button.html{background: linear-gradient(to right, rgb(111, 216, 111) 70%, white 30%);}
@@ -479,9 +479,8 @@ button.b1{background-color: rgb(111, 216, 111);
       width: 60%;}
    .doscolumnas{display: flex;
     flex-direction: column;
-    width: 55%;}
-   .col{ width:auto;
-   height: 20rem;}
+    width: 60%;}
+   .col{ width:auto;}
 
  /* sec cinco */
    .portfolio .margencinco{ margin: 3rem auto;
